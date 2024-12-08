@@ -466,7 +466,7 @@ async def start(client, message):
                         InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                     ]]
                     await message.reply_text(
-                        text="<b>You are not verified !\nKindly verify to continue !</b>",
+                        text="<b>✨YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 24 HOURS ✅\n\n<blockquote>⚜️ இந்த BOT இலிருந்து MOVIE பெற, நீங்கள் VERIFY செய்த பிறகு, 24 மணிநேரத்திற்கு UNLIMITED திரைப்படங்களைப் பெறலாம்.</blockquote>\n\n🎯 IF YOU ARE HAVING ANY PROBLEM WITH VERIFICATION SEND SCREENSHOT SCREEN RECORDING SHOWING THE PROBLEM TO @TamilFlix_Admine_bot  AND ASK FOR HELP.\n\n<blockquote>🔥 நீங்கள் சரிபார்க்க விரும்பவில்லை என்றால், நீங்கள் PREMIUM எடுக்கலாம், PREMIUM எடுத்த பிறகு, நீங்கள் UNLIMITED MOVIES  பெற முடியும் மேலும் நீங்கள் சரிபார்க்க வேண்டியதில்லை\n\nPLAN DETAILS கிளிக் செய்யவும் /plan</blockquote></b>",
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -539,7 +539,7 @@ async def start(client, message):
                         InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                     ]]
                     await message.reply_text(
-                        text="<b>You are not verified !\nKindly verify to continue !</b>",
+                        text="<b>✨YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 24 HOURS ✅\n\n<blockquote>⚜️ இந்த BOT இலிருந்து MOVIE பெற, நீங்கள் VERIFY செய்த பிறகு, 24 மணிநேரத்திற்கு UNLIMITED திரைப்படங்களைப் பெறலாம்.</blockquote>\n\n🎯 IF YOU ARE HAVING ANY PROBLEM WITH VERIFICATION SEND SCREENSHOT SCREEN RECORDING SHOWING THE PROBLEM TO @TamilFlix_Admine_bot  AND ASK FOR HELP.\n\n<blockquote>🔥 நீங்கள் சரிபார்க்க விரும்பவில்லை என்றால், நீங்கள் PREMIUM எடுக்கலாம், PREMIUM எடுத்த பிறகு, நீங்கள் UNLIMITED MOVIES  பெற முடியும் மேலும் நீங்கள் சரிபார்க்க வேண்டியதில்லை\n\nPLAN DETAILS கிளிக் செய்யவும் /plan</blockquote></b>",
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -611,7 +611,7 @@ async def start(client, message):
                 InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
             ]]
             await message.reply_text(
-                text="<b>You are not verified !\nKindly verify to continue !</b>",
+                text="<b>✨YOU ARE NOT VERIFIED !\nKINDLY VERIFY TO CONTINUE & YOU CAN GET UNLIMITED ACCESS FOR 24 HOURS ✅\n\n<blockquote>⚜️ இந்த BOT இலிருந்து MOVIE பெற, நீங்கள் VERIFY செய்த பிறகு, 24 மணிநேரத்திற்கு UNLIMITED திரைப்படங்களைப் பெறலாம்.</blockquote>\n\n🎯 IF YOU ARE HAVING ANY PROBLEM WITH VERIFICATION SEND SCREENSHOT SCREEN RECORDING SHOWING THE PROBLEM TO @TamilFlix_Admine_bot  AND ASK FOR HELP.\n\n<blockquote>🔥 நீங்கள் சரிபார்க்க விரும்பவில்லை என்றால், நீங்கள் PREMIUM எடுக்கலாம், PREMIUM எடுத்த பிறகு, நீங்கள் UNLIMITED MOVIES  பெற முடியும் மேலும் நீங்கள் சரிபார்க்க வேண்டியதில்லை\n\nPLAN DETAILS கிளிக் செய்யவும் /plan</blockquote></b>",
                 protect_content=True,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
