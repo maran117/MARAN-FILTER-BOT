@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '25534178'))
 API_HASH = environ.get('API_HASH', '686cd14038f0a4e555540dce08ab3669')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7542864865:AAFrLpgK5ai1AqfUBnD1NzBWmH0OUtWP-zM")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7632930830:AAFRw_2J-Lfo3PBu__1ul7NTbjz_v9UaI9Q")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -51,7 +51,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://maran4486:9As9VRZx2lQ0bzji@cluster0.gipwv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Vjbot:4Ixu1D7IiAbRJz4i@cluster0.gipwv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "mangoDB")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
@@ -78,7 +78,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TamilFlix_Admine_bot') # Support Cha
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
-PM_SEARCH = bool(environ.get('PM_SEARCH', True))
+PM_SEARCH = bool(environ.get('PM_SEARCH', False))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
@@ -96,7 +96,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'instantlinks.co')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '645ea7db843cb1a5977267341cf8adb1873675f5')
